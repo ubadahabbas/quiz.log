@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet"></head>
+    <script defer src="./js/data.js"></script>
+    <script defer src="./js/script.js"></script>
+
+    <title>quiz.log</title>
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide question">
+            <div id="question"></div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div id="controls" class="controls hide">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="category-btn" class="select-category-btn btn hide">Select Category</button>
+        </div>
+        <div id="categories">
+            <div  class="btn-grid">
+            <button  class="btn category-btn" > JavaScript</button>
+            <button  class="btn category-btn"> JAVA</button>
+            <button  class="btn category-btn"> REACT</button>
+            <button  class="btn category-btn"> CSS</button>
+       
+        </div>
+        </div>
+    </div>
+</body>
+</html>
